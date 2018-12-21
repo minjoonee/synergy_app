@@ -1,0 +1,74 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<link rel="stylesheet" href="intro.css">
+	</head>
+	<body>
+<div class="container">
+    <div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+	<div class="parent"></div>
+</div>
+		<script>
+			var intro = document.getElementsByClassName('parent');
+			var i=0;
+			var ex = new Array();
+			ex[0] = intro[12];
+			ex[1] = intro[6];
+			ex[2] = intro[20];
+			ex[3] = intro[16];
+			ex[4] = intro[8];
+			ex[5] = intro[2];
+			ex[6] = intro[24];
+			ex[7] = intro[22];
+			ex[8] = intro[13];
+			ex[9] = intro[17];
+			ex[10] = intro[15];
+			ex[11] = intro[4];
+			ex[12] = intro[1];
+			ex[13] = intro[5];
+			ex[14] = intro[10];
+			ex[15] = intro[21];
+			ex[16] = intro[18];
+			ex[17] = intro[19];
+			ex[18] = intro[0];
+			ex[19] = intro[14];
+			ex[20] = intro[9];
+			ex[21] = intro[3];
+			ex[22] = intro[7];
+			ex[23] = intro[23];
+			ex[24] = intro[11];
+			
+			setTimeout(introf,100);
+			function introf(){
+				setTimeout(introf,100);
+				ex[i].style.transform="rotateX(180deg)";
+				ex[i].style.opacity="0";
+					i++;
+				}
+		</script>
+		
+	</body>
+</html>

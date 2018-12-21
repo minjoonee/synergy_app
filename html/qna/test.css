@@ -1,0 +1,263 @@
+@media screen and (max-width: 750px) {
+  *{
+margin : 0 auto;
+box-sizing: border-box;
+}
+a:link { color: black; text-decoration: none;}
+a:visited { color: blue; text-decoration: none;}
+a:hover {  color: blue; text-decoration: none;}
+
+/* icon */
+ul{
+  position: relative;
+  top: 50px;
+  float: right;
+  list-style:none;
+    margin:0;
+    padding:0;
+}
+li {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border : 0;
+    float: left;
+}
+/* notice css */
+
+
+.m_notice_main{
+  background: #f5f4e9;
+  z-index: -1;
+}
+
+/* m_notice_table */
+  .notice_in{
+    z-index: 1;
+    position: relative;
+    top: 30px;
+    width: 100%;
+  }
+
+
+.notice_book{
+  position: relative;
+  margin: 11px auto;
+  width: 90%;
+  padding: 15px 15px 15px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #C4C4C4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/*
+div class : in
+그 안의 div class : qna_book
+table
+그리고 body class : m_qna_main*/
+.m_qna_main{
+  background: #f5f4e9
+}
+.in{
+  position: relative;
+  top: 100px;
+}
+
+.qna_book{
+  position: relative;
+  margin: 11px auto;
+  width: 90%;
+  padding: 15px 15px 15px;
+  background: #FFFFFF;
+  border-bottom: 1px solid #C4C4C4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+  table{
+    table-layout:fixed;
+    word-break:break-all;
+  }
+
+  th{
+    max-height: 35px;
+  }
+  td{
+    max-height: 25px;
+    text-align: right;
+    color : #dcdcdc;
+  }
+  .footer{
+   position: relative;
+   top: 150px;
+   float: right;
+   margin-right: 20px;
+  }
+  .btn {
+      background-color: #FFE400;
+      border: none;
+      color: #8C8C8C;
+      border-radius: 12px;
+      padding: 2px 12px 2px 12px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+  }
+  .btn:hover{
+      background-color: #FFE400;
+      color: #8C8C8C;
+      opacity: 0.6;
+      border: none;
+  }
+
+/* qna_view.php */
+
+  .view{
+    margin-top: 20px;
+    padding:8px;
+    width: 90%;
+    height: auto;
+    background-color: #FFFFF0;
+  }
+  .ID{
+    font-size: 20px;
+  }
+  .DATE{
+    font-size: 10px;
+    color: gray;
+  }
+  .TITLE{
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .CONTENT{
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .CONTENT>p>img{
+    width: 230px;
+    height: auto;
+  }
+
+  .REPLY{
+    margin-top: 20px;
+    margin-bottom: 65px;
+    padding: 8px;
+    width: 90%;
+    background-color: #FFFFF0
+  }
+  .r_CONTENT{
+    margin-top:5px;
+    font-size: 15px;
+  }
+  .r_CONTENT>hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 1px;
+  }
+
+  code{
+white-space: pre-wrap;
+word-break: break-all;
+   }
+
+/*comment*/
+  .comment{
+    position: fixed;
+    bottom: 20px;
+    max-height: 25px;
+    width: 100%;
+  }
+  .writeComment{
+    width: 83%;
+    height: 25px;
+    margin-left: 6%;
+    border-radius: 12px;
+    border: none;
+    background-color:rgb(230, 230, 230);
+  }
+  .sendComment{
+    border: none;
+    width: 25px;
+    height: 25px;
+    padding: 0px;
+    cursor: pointer;
+    background-color:rgb(230, 230, 230);
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+
+  }
+
+.search{
+    width:100%;
+}
+
+.search_icon_li{
+    width: 80%
+}
+.search_content{
+    margin-left: 18%;
+    width: 80%;
+    height: 28px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #8cbfd9;
+    border-width: 1.9px;
+}
+
+  /* m_qna_write.php */
+  .write_box{
+  background-color: #FFFFF0;
+    position: relative;
+  }
+  .write_form{
+    position: relative;
+    top: 30px;
+  }
+  .write_title{
+  background-color: #FAFAD2;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0px;
+    width: 100%;
+    height: 60px;
+  }
+  .write_content{
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+    top: 20px;
+    width: 100%;
+    height: 150px;
+    border: 0px;
+    background-color: #FAFAD2;
+  }
+  .write_submit{
+    position: relative;
+    top: 30px;
+    float: right;
+    margin-right: 30px;
+    background-color: #FFE400;
+    border: none;
+    color: #8C8C8C;
+    border-radius: 12px;
+    padding: 2px 12px 2px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .write_submit:hover{
+      background-color: #FFE400;
+      color: #8C8C8C;
+      opacity: 0.6;
+      border: none;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE>
+<html>
+	<head>
+	
+	</head>
+	<body>
+		
+			<input type="checkbox" onClick="closePop();">오늘 하루 동안 열지 않음
+
+		<script>
+
+if(!checkPoupCookie("close20150406")){
+
+window.open("/sysm/clsCdMngt/test.kfi","TITLE","left=60, top=60, width=410, height=410, resizable=no
+
+, scrollbar=no, status=no, menubar=no, toolbar=no, location=no"); 
+
+}
+
+
+
+function checkPoupCookie(cookieName){
+
+var cookie = document.cookie;
+
+// 현재 쿠키가 존재할 경우
+
+if(cookie.length > 0){
+
+// 자식창에서 set해준 쿠키명이 존재하는지 검색
+
+startIndex = cookie.indexOf(cookieName);
+
+// 존재한다면
+
+if(startIndex != -1){
+
+return true;
+
+}else{
+
+// 쿠키 내에 해당 쿠키가 존재하지 않을 경우
+
+return false;
+
+};
+
+}else{
+
+// 쿠키 자체가 없을 경우
+
+return false;
+
+};
+
+}
+
+</script>
+		
+		<script>
+
+function setCookie(name, value, expiredays){
+
+var todayDate = new Date();
+
+todayDate.setDate(todayDate.getDate() + expiredays);
+
+document.cookie = name + "=" + escape( value ) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+
+}
+
+
+
+function closePop(){
+
+setCookie("close20150406","close20150406",1);
+
+window.close();
+
+}
+
+</script>
+
+
+
+
+
+
+	</body>
+</html>

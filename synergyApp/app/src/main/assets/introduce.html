@@ -1,0 +1,422 @@
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0, minimum-scale = 1.0, maximum-scale = 1.0>
+        <meta charset="utf-8">
+
+        <style>
+        #top_activity{
+        text-align: center;
+        border-bottom:3px solid black;
+        }
+
+        .subtitle{
+        font-weight: bold;
+        font-size:20px;
+        }
+
+        body{
+        background-image: url("lightbulb2.jpg");
+        background-size: cover;
+        }
+
+        .box1{
+        text-align: left;
+        font-size: 30px;
+        padding: 30px;
+        background-color: rgba( 250, 250, 220, 0.6 );
+        }
+
+        .a{
+        font-size: 25px;
+        font-family: "돋움";
+        padding: 20px;
+
+        }
+
+    `   div{
+        margin: 10px;
+        }
+
+        .color{
+        color: #F8F663;
+        }
+
+        </style>
+    </head>
+    <body>
+    <title> SYNERGY</title>
+    <style>
+    *{
+margin : 0 auto;
+box-sizing: border-box;
+}
+#body{
+height: 800px;
+}
+/*home*/
+
+/*메뉴*/
+#menu{
+width: 70%;
+height: 100%;
+/*	background-color: rgba(255,190,158);*/
+background-color: rgba(242,242,242);
+position: absolute;
+transition-duration: 1s;
+left: -70%;
+z-index: 999;
+}
+#menu_btn{
+width: 120%;
+height: 45px;
+}
+#btn_view_back{
+width: 45px;
+height: 45px;
+float: right;
+cursor: pointer;
+}
+.btn_view{
+width: 40px;
+height: 5px;
+background-color: rgb(88,88,88);
+margin-bottom: 7px;
+transition-duration: 0.5s;
+border-radius: 50px;
+}
+#btn_view1{
+margin-top: 10px;
+}
+/*		상단*/
+#top{
+height: 50px;
+width: 100%;
+/* background: linear-gradient( to right, rgba(253,230,88), rgba(255,254,148) ); */
+background-color: rgba(253,255,161);
+}
+#top_write{
+width: 50%;
+height: 50px;
+float: left;
+margin-left: 25%;
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+color : rgb(88,88,88);
+font-family: '돋움';
+padding-top: 7px;
+}
+#top_logo{
+width: 13%;
+height: 50px;
+float: right;
+padding-top: 0.5%;
+}
+#top_logo > img{
+width: 100%;
+height: 100%;
+}
+#search{
+width: 100%;
+height: 40px;
+margin-top: 20px;
+}
+#search_box{
+width: 95%;
+height: 30px;
+border: solid rgb(0,0,0) 2px;
+background-color: white;
+border-radius: 30px;
+margin-left: 5%;
+float: left;
+padding: 2px 0px 2px 6px;
+}
+
+#search_box_div{
+display: inline-block;
+width: 70%;
+height: 40px;
+float: left;
+}
+#search_btn{
+width: 100%;
+height: 100%;
+}
+#search_box_btn{
+display: inline-block;
+width: 50px;
+height: 40px;
+float: left;
+margin-top: -5px;
+margin-right: 10px;
+}
+
+#menu_profile{
+width: 90%;
+height: 70px;
+/*	background-color: red;*/
+border-bottom: 2px solid rgba(88,88,88,0.5);
+margin-top: 40px;
+}
+#profile_photo{
+width: 60px;
+height: 60px;
+float: left;
+margin-left: 5px;
+}
+#profile_photo> img{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+#profile_write{
+width: 130px;
+height: 60px;
+float: left;
+font-size: 18px;
+padding:7px 0 0 15px;;
+}
+.menu_menu{
+width: 100%;
+height: 40px;
+margin-top: 20px;
+}
+.menu_menu> a{
+color: black;
+text-decoration: none;
+}
+.menu_write{
+width: 60%;
+height: 100%;
+float: left;
+font-size: 20px;
+padding: 5px 0 5px 10px;
+}
+.menu_point{
+width: 40px;
+height: 100%;
+float: right;
+margin: 0px 10px 0 0;
+}
+.menu_point > img{
+width: 100%;
+height: 100%;
+}
+#logout{
+width: 100%;
+height: 30px;
+margin-top: 90px;
+float: right;
+text-align: right;
+}
+#logout_photo{
+width: 30px;
+height: 30px;
+float: right;
+margin-right: 10px;
+cursor: pointer;
+}
+#logout_photo>img{width: 100%; height: 100%;}
+#logout_write{
+  width: 100px;
+  height: 100%;
+  float: right;
+  padding: 4px 3px 0 0 ;
+}
+.log_div{
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  border-bottom: 3px solid rgba(88,88,88,0.5);
+  margin-bottom: 20px;
+  color: black;
+}
+.log_write{
+  width: 70%;
+  height: 100%;
+  float: left;
+  font-size: 25px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+.log_img{
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-right: 20px;
+}
+.log_img >img{
+  width: 100%;
+  height: 100%;
+}
+.search_back{
+  width: 100%;
+  height: 25px;
+  margin-bottom: 10px;
+}
+.search_back_write{
+  width: 150px;
+  height: 100%;
+  float: right;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(88,88,88,0.5);
+  margin-right: 15px;
+  border-radius: 10px;
+}
+</style>
+<body>
+    <div id='menu'>
+				<div id='menu_btn'>
+					<div id='btn_view_back' onclick='menu_view()'>
+						<div class='btn_view' id='btn_view1'></div>
+						<div class='btn_view'></div>
+						<div class='btn_view'></div>
+					</div>
+				</div>
+				  <div id='menu_profile'>
+					<div id='profile_write'>
+						안녕하세요<strong>$_SESSION[id]</strong> 님!
+					</div>
+				</div>
+
+				<div class='menu_menu'>
+					<a href='activity.php'>
+						<div class='menu_write'>
+							활동내역
+						</div>
+						<div class='menu_point'>
+							<img src='img/activities2.png' alt='point'>
+						</div>
+					</a>
+				</div>
+
+				<div class='menu_menu'>
+					<a href='information.php'>
+						<div class='menu_write'>
+							내정보
+						</div>
+						<div class='menu_point'>
+							<img src='img/myinfo2.png' alt='point'>
+						</div>
+					</a>
+				</div>
+
+				<div class='menu_menu'>
+          <a href='change_profile.php'>
+						<div class='menu_write'>
+							프로필변경
+						</div>
+						<div class='menu_point'>
+							<img src='img/changeprofile2.png' alt='point'>
+						</div>
+					</a>
+				</div>
+
+				<div class='menu_menu'>
+					<a href='others.php'>
+						<div class='menu_write'>
+							기타
+						</div>
+						<div class='menu_point'>
+							<img src='img/etc2.png' alt='point'>
+						</div>
+					</a>
+				</div>
+
+				<div id='logout'>
+                    <a href='logout.php'>
+					<div id='logout_photo'>
+						<img src='img/logout2.png' alt='로그아웃'>
+					</div>
+          <div id='logout_write'>로그아웃</div>
+                    </a>
+				</div>
+
+			</div>
+
+			<div id='top'>
+				<div id='top_write'>
+					비었음
+				</div>
+				<a href='index.php'><div id='top_logo'>
+					<img src='img/logo.png' alt='logo'>
+				</div>
+				</a>
+			</div>
+  </body>
+<script>
+    var menu_btn = document.getElementsByClassName('btn_view');
+		var menuu = document.getElementById('menu');
+		var i=0 , promenubar;
+
+    function ab_fix(){
+      menuu.style.position="absolute";
+    }
+
+  function menu_view(){
+    if(i==0){
+      menuu.style.left="0px";
+      menu_btn[0].style.transform="rotate(37.5deg)"
+      menu_btn[0].style.transformOrigin="0% 100%";
+      menu_btn[2].style.transform="rotate(-37.5deg)";
+      menu_btn[2].style.transformOrigin="0% 0%";
+      menu_btn[1].style.opacity="0";
+      menuu.style.position="fixed";
+      i=1;
+    }
+    else{
+      menuu.style.left="-70%";
+      menu_btn[0].style.transform="rotate(0deg)"
+      menu_btn[2].style.transform="rotate(0deg)";
+      menu_btn[1].style.opacity="1";
+      setTimeout(ab_fix,1000);
+      // menuu.style.position="absolute";
+      i=0;
+    }
+  }
+  </script>
+
+        <div class="box1">
+            <p style="text-align: center;">
+              <img src="synergylogo.png"/>
+            </p>
+
+            <p style="text-align: center; font-size: 15px;" class="color">
+                If you want to go fast, go <i>alone.</i><br>
+                If you want to go far, go <i>together.</i><br>
+                1+1>2<br><br><br>
+            </p>
+
+            <h1 style="font-size: 20px;">location</h1>
+              <p class="a" style="font-size: 15px;">
+
+                IT정보공학과는 전북대학교 공과대학 7호관에 위치하고 Synergy 동아리는 전북대학교 공과대학 6호관에서 매주 화요일 7시 정기회의를 갖습니다.
+              </p>
+            <h1 style="font-size: 20px;">Introduce</h1>
+              <p class="a" style="font-size: 15px;">
+                  'Synergy'는 IT정보공학과의 대표 과동아리입니다.<br><br>
+                  2018년에 회장 '주권능'에 의해 서로가 모여
+                  몇배나 더 큰 힘을 낸다는 의미로 Synergy를 만들었습니다.<br><br>
+
+                  현재 Synergy는 동아리 부원들의 의견을 반영하여 프로젝트의 목표를 설정하고 체계적으로 계획을 세우며 synergy효과를 내고 있습니다.<br><br>
+
+                  프로젝트는 2018년도 1학기부터 본격적으로 진행하여 챗봇, 자바게임, synergy 웹 페이지를 만들었고 2학기에도 synergy 어플, 날씨 어플, 언리얼 엔진 게임, 자바 게임 등의 다양한 프로젝트를 진행중입니다.
+              </p>
+        </div>
+
+
+
+
+		<script>
+			var topName = document.getElementById('top_write');
+			topName.innerHTML="동아리소개";
+		</script>
+    </body>
+
+
+</html>

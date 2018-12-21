@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item
+        android:drawable="@drawable/logo_sy"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/logo2_sy"
+        android:duration="40" />
+    <item
+        android:drawable="@drawable/logo_sy"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/logo2_sy"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/logo_sy"
+        android:duration="80" />
+    <item
+        android:drawable="@drawable/logo2_sy"
+        android:duration="80" />
+
+    <item
+        android:drawable="@drawable/logo_sy"
+        android:duration="260" />
+</animation-list>
